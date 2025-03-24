@@ -1,0 +1,101 @@
+/* Basic editor styles */
+.tiptap {
+  :first-child {
+    margin-top: 0;
+  }
+}
+
+
+.editor-container {
+    border: 1px solid #ccc;
+    padding: 12px;
+    min-height: 200px;
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .variable-token {
+    background: #ffdd57;
+    color: #333;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  .variable-popup {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    z-index: 1000;
+    width: 200px;
+  }
+  
+  .variable-item {
+    padding: 6px;
+    cursor: pointer;
+    background-color: whitesmoke;
+  }
+  
+  .variable-item:hover {
+    background: #f0f0f0;
+  }
+  
+
+  blockquote {
+    border-left: 3px solid var(--gray-3);
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+  }
+}
+
+/* List styles */
+ul,
+ol {
+  padding: 0 1rem;
+  margin: 1.25rem 1rem 1.25rem 0.4rem;
+
+  li p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+}
+
+/* Heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  margin-top: 2.5rem;
+  text-wrap: pretty;
+}
+
+h1,
+h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+}
