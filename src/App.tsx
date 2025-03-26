@@ -1,5 +1,5 @@
 import "./App.css";
-import Editor from "./components/tip-tap/Editor";
+import Editor from "./components/tip-tap editor/Editor";
 
 function App() {
   return (
