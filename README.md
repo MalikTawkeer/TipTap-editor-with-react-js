@@ -1,5 +1,5 @@
-# Project Name
-Customized-TipTap-editor
+# Customized-TipTap-editor
+
 
 ## Installation
 npm install
