@@ -1,5 +1,5 @@
 # Project Name
-TipTap-editor
+Customized-TipTap-editor
 
 ## Installation
 Run the following command to install dependencies:
